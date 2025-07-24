@@ -16,3 +16,5 @@ elif age >= 20 and age <=59:
     print("You're Adult")
 elif age >= 60:
     print("You're Senior")
+else:
+    print("error")
