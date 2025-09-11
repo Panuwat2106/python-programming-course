@@ -17,7 +17,7 @@ class Rectangle:
 
     # Method to get the perimeter
     def get_perimeter(self):
-        perimeter = (self.length + self.width) * 2 
+        perimeter = (self.length + self.width) * 2  
         return perimeter
 
 

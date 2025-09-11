@@ -37,7 +37,7 @@ class Student:
         for grade in self.grades:
            subject = grade["subject"]
            score = grade["grade"]
-           report += f"Subject: {subject} Grade: {score}\n"
+           report += f"Subject: {subject} Grade: {score}\n" 
         return report
 
 
