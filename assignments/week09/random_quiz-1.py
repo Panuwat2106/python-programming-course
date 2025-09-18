@@ -25,3 +25,22 @@ Example
     Congratulations! You won in 3 attempts!
 
 """
+
+import random
+
+# สุ่มเลขระหว่าง 1 - 20
+test_random = random.randint(1, 20)
+
+print("-- เกมทายตัวเลข มาเดาใจคอมพิวเตอร์กันเถอะ --")
+
+for i in range(6):
+    guess_number = int(input("What is your guess number (1-20)?: "))
+    print(f"Attempt {i}/6 - Enter your guess: {guess_number}")
+    if test_random == guess_number:
+      print(f"Congratulations! You won in {i} attempts!")
+      break
+    elif guess_number < test_random:
+      print("Too low! Try again.")
+    elif guess_number > test_random:
+      print("Too high! Try again.")
+
